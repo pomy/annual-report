@@ -19,7 +19,7 @@
 
     </script>
   </head>
-  <body class="page--{{ page.slug }}">
+<body{% if page.slug %} class="{{ page.slug }}"{% endif %}>
     <header class="nav-toggle">
       <span class="nav-toggle__site">mySociety Year in Review 2014</span>
       <strong class="nav-toggle__section">{{ page.title }}</strong>
