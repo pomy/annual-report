@@ -1,4 +1,4 @@
 name: annualreport2014
-baseurl:  /annual-report/
+baseurl:  /annual-report
 host: 0.0.0.0
 gems: ['jekyll/minibundle']
